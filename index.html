@@ -1,27 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Numbers generate</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Generator.numbers — Gere números aleatórios</title>
+    <meta name="title" content="Generator.numbers — Gere números aleatórios" />
+    <meta name="description" content="Gere números aleatórios, seja qual for sua necessidade, escolha o valor minimo, maximo e a quantidade." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Generator.numbers — Gere números aleatórios" />
+    <meta property="og:description" content="Gere números aleatórios, seja qual for sua necessidade, escolha o valor minimo, maximo e a quantidade." />
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Generator.numbers — Gere números aleatórios" />
+    <meta property="twitter:description" content="Gere números aleatórios, seja qual for sua necessidade, escolha o valor minimo, maximo e a quantidade." />
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/logo/site.webmanifest" />
+    <link rel="mask-icon" href="/assets/logo/safari-pinned-tab.svg" color="#bf2441" />
+    <link rel="shortcut icon" href="/assets/logo/favicon.ico" />
+    <meta name="apple-mobile-web-app-title" content="Generator.numbers" />
+    <meta name="application-name" content="Generator.numbers" />
+    <meta name="msapplication-TileColor" content="#bf2441" />
+    <meta name="msapplication-TileImage" content="/assets/logo/mstile-144x144.png" />
+    <meta name="msapplication-config" content="/assets/logo/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="apple-mobile-web-app-status-bar" content="#bf2441" />
+
+    <!-- Links -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/base-min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css" />
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Slab" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <div id="layout" class="pure-g">
-      <div class="sidebar pure-u-1 pure-u-md-1-3">
+      <div class="sidebar pure-u-1 pure-u-lg-1-3">
         <div class="header">
-          <h1 class="brand-title">Gerador de numeros mega sena</h1>
-          <h2 class="brand-tagline">Creating a blog layout using Pure</h2>
+          <h1 class="brand-title">
+            Generator
+            <span></span>
+            numbers
+          </h1>
+          <h2 class="brand-tagline">Gere números aleatórios e use como quiser</h2>
           <button class="pure-button pure-button-primary" onclick="generate()">Gerar novos números</button>
         </div>
       </div>
 
-      <div class="content pure-u-1 pure-u-md-2-3">
+      <div class="content pure-u-1 pure-u-lg-2-3">
         <div class="container">
           <div id="numbers"></div>
         </div>
@@ -29,6 +68,6 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="./index.js"></script>
+    <script src="/js/index.js"></script>
   </body>
 </html>
